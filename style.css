@@ -17,7 +17,7 @@ body{
     width: 100%;
 }
 section{
-    padding-bottom:800px;
+    padding-bottom:700px;
 }
 .hire-button{
     text-decoration: none;
@@ -62,39 +62,44 @@ section{
 .second-last{
     box-shadow: 1px 1px 40px whitesmoke;
 }
-.work-text{
+#background{
+    display: flex;
     background-image: url(images/inquiry.png);
+    height:250px;
+    width: 75%;
+    border-radius: 40px;
     background-repeat: no-repeat;
-    background-size: 800px 260px;
-    margin-left: 370px;
-    text-align: center;
+    justify-content: space-between;
 }
-.tired{
-    
-    margin-left: 5%;
-    
-    float: left;
-    width:30%;
-    
-    
-}
-.almost-tired{
-    background-image:linear-gradient(180deg,salmon,red);
-    
-    padding: 10px 40px;
-    
-    text-align: center;
-    border-radius: 5px;
-
-    
-    
-
-
-}
-#ohh{
-    text-align: center;
-    padding: 80px;
-    font-size:40px;
-    color:white;
+#work{
+    font-size: 40px;
+    color: white;
     font-weight: bold;
+    margin: 65px;
+}
+#button{
+    height: 55px;
+    width:120px;
+    background-color:red;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 65px;
+
+}
+.work-text{
+    margin-left: 25%;
+    padding-top:100px;
+}
+footer h1{
+    text-align: center;
+
+}
+footer img{
+    margin-left: 17%;
+    width:0px 30px;
+}
+#stay{
+    text-align: center;
+    font-size: 30px;
 }
